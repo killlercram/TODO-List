@@ -1,4 +1,4 @@
-//Started the creating the app
+//Started creating the app
 require("dotenv").config();
 
 const express = require("express");
