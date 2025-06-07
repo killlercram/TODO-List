@@ -12,7 +12,7 @@ const db = mongoose.connection;
 
 //Checking the response based on the state
 db.on("connected", () =>{
-  console.log("Db Connection Successfull!!");
+  console.log("Db Connection Successfull!!" );
 });
 db.on("error", () =>{
   console.log("Db Connection Failed!!");
