@@ -7,5 +7,5 @@ const dbConfig = require("./src/config/dbConfig");
 const port = process.env.PORT_NUMBER || 3000;
 
 app.listen(port, () => {
-  console.log(`Server started at port: ${port}`);
+  console.log(`Server started at port: ${port}`) ;
 });
