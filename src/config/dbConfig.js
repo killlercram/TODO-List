@@ -19,7 +19,7 @@ db.on("error", () =>{
 });
 db.on("disconnected",() => {
   
-  console.log("MongoDB disconnected. ");
+  console.log("MongoDB disconnected.");
   
 });
  
