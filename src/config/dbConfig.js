@@ -10,6 +10,7 @@ const MONGODB__CONNECTION_URL = process.env.MONGO_URL;
 //getting connection state
 const db = mongoose.connection;
 
+
 //Checking the response based on the state
 db.on("connected", () =>{
   console.log("Db Connection Successfull!!" );
