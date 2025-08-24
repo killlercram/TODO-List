@@ -7,6 +7,7 @@ const MONGODB__CONNECTION_URL = process.env.MONGO_URL;
 //Establishing Connection
  mongoose.connect(MONGODB__CONNECTION_URL);
 
+ 
 //getting connection state
 const db = mongoose.connection;
 
