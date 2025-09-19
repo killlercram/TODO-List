@@ -20,3 +20,5 @@ Work-SS
 - npm i dotenv
 - npm i pg
 - 
+- Doing something everyday here
+- 
